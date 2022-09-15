@@ -1,13 +1,30 @@
 <swfs>
-    <swf id="cinematique_fin">niveaux/10606116xfjhr.swf</swf>
-    <swf id="fichier_base2">niveaux/10606115ygudm.swf</swf>
-    <swf id="intro_def">niveaux/10606114iojjp.swf</swf>
-    <swf id="jeu_casino">niveaux/10606112lmrij.swf</swf>
-    <swf id="jeu_de_lavion">niveaux/10606111cutbb.swf</swf>
-    <swf id="jeu_des_arbres">niveaux/10606107qdwuh.swf</swf>
-    <swf id="jeu_fuite">niveaux/10606105zpnsn.swf</swf>
-    <swf id="jeu_grotte">niveaux/10606103vzxto.swf</swf>
-    <swf id="jeu_volcan">niveaux/10606102tvgxl.swf</swf>
-    <swf id="jeu_volcannuit">niveaux/10606100ypupl.swf</swf>
-    <swf id="retour_poulbill">niveaux/10606099qkqqx.swf</swf>
-</swfs>
+    <swf id= \"cinematique_fin\">niveaux/10606116xfjhr.swf</swf>
+    <swf id= \"fichier_base2\">niveaux/10606115ygudm.swf</swf>
+    <swf id= \"intro_def\">niveaux/10606114iojjp.swf</swf>
+    <swf id= \"jeu_casino\">niveaux/10606112lmrij.swf</swf>
+    <swf id= \"jeu_de_lavion\">niveaux/10606111cutbb.swf</swf>
+    <swf id= \"jeu_des_arbres\">niveaux/10606107qdwuh.swf</swf>
+    <swf id= \"jeu_fuite\">niveaux/10606105zpnsn.swf</swf>
+    <swf id= \"jeu_grotte\">niveaux/10606103vzxto.swf</swf>
+    <swf id= \"jeu_volcan\">niveaux/10606102tvgxl.swf</swf>
+    <swf id= \"jeu_volcannuit\">niveaux/10606100ypupl.swf</swf>
+    <swf id= \"retour_poulbill\">niveaux/10606099qkqqx.swf</swf>
+</swfs>stop();
+var cstr = "<swfs>
+    <swf id= \"cinematique_fin\">niveaux/10606116xfjhr.swf</swf>
+    <swf id= \"fichier_base2\">niveaux/10606115ygudm.swf</swf>
+    <swf id= \"intro_def\">niveaux/10606114iojjp.swf</swf>
+    <swf id= \"jeu_casino\">niveaux/10606112lmrij.swf</swf>
+    <swf id= \"jeu_de_lavion\">niveaux/10606111cutbb.swf</swf>
+    <swf id= \"jeu_des_arbres\">niveaux/10606107qdwuh.swf</swf>
+    <swf id= \"jeu_fuite\">niveaux/10606105zpnsn.swf</swf>
+    <swf id= \"jeu_grotte\">niveaux/10606103vzxto.swf</swf>
+    <swf id= \"jeu_volcan\">niveaux/10606102tvgxl.swf</swf>
+    <swf id= \"jeu_volcannuit\">niveaux/10606100ypupl.swf</swf>
+    <swf id= \"retour_poulbill\">niveaux/10606099qkqqx.swf</swf>
+</swfs>";
+if(tfou.main.Init.initialisation_v4(cstr))
+{
+   play();
+}
